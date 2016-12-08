@@ -29,11 +29,3 @@ public class HelloControllerTest {
                 .andExpect(content().string(equalTo("Greetings from Spring Boot!")));
     }
 }
-
-Add the following dependency too in the pom.xml:
-
-<dependency>
-    <groupId>org.springframework.boot</groupId>
-    <artifactId>spring-boot-starter-test</artifactId>
-    <scope>test</scope>
-</dependency>
